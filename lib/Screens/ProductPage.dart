@@ -10,7 +10,7 @@ class ProductsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Products Page😊"),
+          title: const Text("Products Page"),
         ),
         body: Consumer<ProductsProvider>(
           builder: (context, value, child) {
